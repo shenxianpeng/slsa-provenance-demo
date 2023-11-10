@@ -45,4 +45,5 @@ jobs:
     with:
       base64-subjects: ${{ needs.publish.outputs.hashes }}
       # private-repository: true
+      upload-assets: true # Optional: Upload to a new release
       continue-on-error: true
