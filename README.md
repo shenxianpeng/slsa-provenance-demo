@@ -7,7 +7,7 @@ Generate Level 3 provenance with https://github.com/shenxianpeng/slsa-provenance
 
 # Verify artifact
 
-Then user can verify artifact with following command
+Then user can verify artifact with the following command. (need to install [slsa-verifier](https://github.com/slsa-framework/slsa-verifier) first)
 
 ```bash
 bash-4.4$ slsa-verifier verify-artifact test-1.0.0-py3-none-any.whl --provenance-path test-1.0.0-py3-none-any.whl.intoto.jsonl --source-uri github.com/shenxianpeng/slsa-provenance-demo
