@@ -27,6 +27,12 @@ jobs:
           python -m pip install --upgrade pip
           python -m pip wheel --no-deps -w dist .
 
+      - name: upload wheel as artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: "test_wheel"
+          path: ${{ github.workspace }}/dist/*.whl
+
       - name: Generate subject
         id: hash
         run: |
