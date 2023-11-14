@@ -15,8 +15,8 @@ setuptools.setup(
     python_requires=">=3",
     license="MIT",
     project_urls={
-        "Source": "https://github.com/shenxianpeng/issue-2941",
-        "Tracker": "https://github.com/shenxianpeng/issue-2941/issues"
+        "Source": "https://github.com/shenxianpeng/slsa-provenance-demo",
+        "Tracker": "https://github.com/shenxianpeng/slsa-provenance-demo/issues"
     },
     classifiers=[
         # https://pypi.org/pypi?%3Aaction=list_classifiers
